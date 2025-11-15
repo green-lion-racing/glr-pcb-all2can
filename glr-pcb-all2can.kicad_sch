@@ -5,12 +5,11 @@
 	(uuid "be608b80-d1f2-4edd-b7a6-2b7cddd9f44f")
 	(paper "A4")
 	(title_block
-		(title "SET A TITLE AND UPDATE AUTHOR FIELDS (DOUBLE CLICK HERE)")
+		(title "All2Can")
 		(date "${CURRENT_DATE}")
-		(rev "v1")
+		(rev "v4")
 		(company "Green Lion Racing")
-		(comment 1 "Author #1")
-		(comment 2 "Author #2")
+		(comment 1 "Alexander Wallrodt")
 	)
 	(lib_symbols
 		(symbol "GLR_KiCad_Library:LOGO"
@@ -1461,6 +1460,17 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "This PCB has a long history of desgins.\nFrist version in CircuitMaker. https://circuitmaker.com/Projects/Details/Pat-Her/All2Can-V01\nSecond version also in CircuitMaker with some changes. https://circuitmaker.com/Projects/Details/Jannis-Dohm/All2Can\nThird in Fusion 360, with new PCB design.\nNow fourth version in KiCad, with some changes to schematic and smaller PCB. https://github.com/green-lion-racing/glr-pcb-all2can"
+		(exclude_from_sim no)
+		(at 14.478 20.066 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "312cfbd1-6523-4593-a682-e0d8e870cbc1")
+	)
 	(symbol
 		(lib_id "GLR_KiCad_Library:LOGO")
 		(at 259.08 173.99 0)
@@ -1521,6 +1531,127 @@
 				(path "/be608b80-d1f2-4edd-b7a6-2b7cddd9f44f"
 					(reference "#G1")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 135.89 87.63)
+		(size 20.32 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "042b8a59-42b1-451e-b61b-604f57929997")
+		(property "Sheetname" "CAN Transciever"
+			(at 135.89 86.9184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "can-bus.kicad_sch"
+			(at 133.858 107.188 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "TX 1" input
+			(at 135.89 93.98 180)
+			(uuid "484b6c9a-625d-4b16-8d0a-6f5c4be96da0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TX 2" input
+			(at 135.89 104.14 180)
+			(uuid "1c92bc53-c810-45fb-9ddd-1dddf3cc0db5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CAN H 1" bidirectional
+			(at 156.21 90.17 0)
+			(uuid "c156d5c7-e5bf-414d-a706-9f7965565dfe")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CAN L 1" bidirectional
+			(at 156.21 93.98 0)
+			(uuid "9c0e8c81-c6d2-44b0-8345-2fb756ea94f7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RX 1" output
+			(at 135.89 90.17 180)
+			(uuid "9af97164-744f-49a8-8412-40e40cbde007")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RX 2" output
+			(at 135.89 100.33 180)
+			(uuid "652679d8-9a1c-4c83-bd64-a6665c7c65c3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CAN L 2" bidirectional
+			(at 156.21 100.33 0)
+			(uuid "0153d05c-1487-4dca-8736-8b1f45ffa4f8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CAN H 2" bidirectional
+			(at 156.21 104.14 0)
+			(uuid "5b6ca2fc-3bb7-4aa3-a63f-ba360e074a4f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "glr-pcb-template"
+				(path "/be608b80-d1f2-4edd-b7a6-2b7cddd9f44f"
+					(page "2")
 				)
 			)
 		)

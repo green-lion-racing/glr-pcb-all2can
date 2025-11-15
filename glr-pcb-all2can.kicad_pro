@@ -464,7 +464,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "glr-pcb-template.kicad_pro",
+    "filename": "glr-pcb-all2can.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -626,6 +626,10 @@
     [
       "be608b80-d1f2-4edd-b7a6-2b7cddd9f44f",
       "Root"
+    ],
+    [
+      "042b8a59-42b1-451e-b61b-604f57929997",
+      "CAN Transciever"
     ]
   ],
   "text_variables": {}

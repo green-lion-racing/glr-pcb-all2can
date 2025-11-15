@@ -1,10 +1,10 @@
-# glr-pcb-template
+# glr-pcb-all2can
 
-This is a KiCad template repository for PCBs designed by the Green Lion Racing team.
+This is a KiCad PCB repository for the [All2Can](https://github.com/green-lion-racing/glr-all2can) software.
 
 <p float="left">
-  <img src="img/glr-pcb-template-front.png" width="49%" />
-  <img src="img/glr-pcb-template-back.png" width="49%" />
+  <img src="img/glr-pcb-all2can-front.png" width="49%" />
+  <img src="img/glr-pcb-all2can-back.png" width="49%" />
 </p>
 
 ## Overview
@@ -17,7 +17,7 @@ You can use this template by clicking on this [link](https://github.com/new?owne
 
 This is a list of task you should first do when using this template:
 
-- [ ] Rename every occurence of `glr-pcb-template` to `glr-pcb-your-project-name`. Occurence of this string are found here:
+- [x] Rename every occurence of `glr-pcb-template` to `glr-pcb-your-project-name`. Occurence of this string are found here:
   
   - Project files e. g. `glr-pcb-template.kicad_pcb`, `glr-pcb-template.kicad_pro`, and `glr-pcb-template.kicad_sch`.
   
@@ -29,7 +29,7 @@ This is a list of task you should first do when using this template:
 
 - [ ] Change short description and longer overview of this board in `README.md`.
 
-- [ ] Replace display images in `img/` used in `README.md` of a rendering of your pcb.
+- [x] Replace display images in `img/` used in `README.md` of a rendering of your pcb.
 
 - [ ] Fill out used parts table in `README.md`.
 
