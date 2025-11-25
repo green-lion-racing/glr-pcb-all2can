@@ -1178,8 +1178,8 @@
 		)
 	)
 	(rectangle
-		(start 71.12 43.18)
-		(end 218.44 143.51)
+		(start 72.39 69.85)
+		(end 219.71 128.27)
 		(stroke
 			(width 0)
 			(type default)
@@ -1190,8 +1190,8 @@
 		(uuid 35fde089-2bc0-43a3-a733-4b183d33c700)
 	)
 	(rectangle
-		(start 153.67 101.6)
-		(end 170.18 137.16)
+		(start 154.94 81.28)
+		(end 171.45 116.84)
 		(stroke
 			(width 0)
 			(type default)
@@ -1201,21 +1201,9 @@
 		)
 		(uuid a1345ac9-c0bc-4bcf-990c-6354686ca56a)
 	)
-	(rectangle
-		(start 153.67 52.07)
-		(end 170.18 87.63)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid f4f9ec97-e5a6-4e48-a69b-9ecfa37580dd)
-	)
-	(text "CAN Transciever System\nFor two CAN-Busses"
+	(text "CAN Transciever System\nFor one CAN-Bus"
 		(exclude_from_sim no)
-		(at 72.136 46.736 0)
+		(at 73.406 73.406 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1226,17 +1214,7 @@
 	)
 	(text "Optional\nIf CAN termination is needed here"
 		(exclude_from_sim no)
-		(at 167.64 70.104 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "50c72a6b-fd48-4fce-be40-ead0629e2e8d")
-	)
-	(text "Optional\nIf CAN termination is needed here"
-		(exclude_from_sim no)
-		(at 167.64 119.634 90)
+		(at 168.91 99.314 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1245,80 +1223,44 @@
 		(uuid "52674543-b62f-4c6e-9a96-7f9d50bf80d7")
 	)
 	(junction
-		(at 157.48 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "15284265-cfb3-494b-a7a4-1baa381eaa44")
-	)
-	(junction
-		(at 85.09 113.03)
+		(at 86.36 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2d15a491-dfa7-4039-852e-15ccc3c42e0b")
 	)
 	(junction
-		(at 199.39 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3281c735-6a8b-4bca-9188-a98d6cfd37c6")
-	)
-	(junction
-		(at 85.09 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "408e8316-5610-416d-9efa-a77fa0d3a224")
-	)
-	(junction
-		(at 157.48 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "40bbaaf0-45b3-4467-80e3-ff4f66f79630")
-	)
-	(junction
-		(at 199.39 68.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4af3311d-d7d6-4377-92cf-27340f78ac73")
-	)
-	(junction
-		(at 157.48 139.7)
+		(at 158.75 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "52fcfcc2-4e02-4052-884b-df1b839e5448")
 	)
 	(junction
-		(at 199.39 120.65)
+		(at 200.66 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "75470ef3-ba8e-43de-9039-2a37687de767")
 	)
 	(junction
-		(at 85.09 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7c4cad4f-e629-4ea2-bb0e-bddb68ab5398")
-	)
-	(junction
-		(at 85.09 125.73)
+		(at 86.36 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8ea87f65-ca5a-4e4a-a9cc-eacca6f77b7e")
 	)
 	(junction
-		(at 157.48 97.79)
+		(at 158.75 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "929a3f9b-3e54-4aee-9101-1911e8f2f63f")
 	)
 	(junction
-		(at 199.39 118.11)
+		(at 200.66 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9ad39a89-39c6-4d69-83d2-7fd00ac1a137")
 	)
 	(wire
 		(pts
-			(xy 104.14 115.57) (xy 104.14 109.22)
+			(xy 105.41 95.25) (xy 105.41 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1328,7 +1270,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 109.22) (xy 104.14 109.22)
+			(xy 83.82 88.9) (xy 105.41 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1338,7 +1280,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 118.11) (xy 157.48 120.65)
+			(xy 158.75 97.79) (xy 158.75 100.33)
 		)
 		(stroke
 			(width 0)
@@ -1348,7 +1290,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 120.65) (xy 205.74 120.65)
+			(xy 200.66 100.33) (xy 207.01 100.33)
 		)
 		(stroke
 			(width 0)
@@ -1358,17 +1300,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 68.58) (xy 101.6 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "225ead39-3e13-4384-b9a1-1a53393d39c5")
-	)
-	(wire
-		(pts
-			(xy 82.55 125.73) (xy 85.09 125.73)
+			(xy 83.82 105.41) (xy 86.36 105.41)
 		)
 		(stroke
 			(width 0)
@@ -1378,7 +1310,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 118.11) (xy 101.6 118.11)
+			(xy 107.95 97.79) (xy 102.87 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1388,7 +1320,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 97.79) (xy 151.13 118.11)
+			(xy 152.4 77.47) (xy 152.4 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1398,47 +1330,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 48.26) (xy 199.39 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "369b53f3-bfe7-4355-a8b3-a67f5a28b846")
-	)
-	(wire
-		(pts
-			(xy 157.48 68.58) (xy 157.48 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "388b3ee8-3052-4148-b068-db49e3438b28")
-	)
-	(wire
-		(pts
-			(xy 134.62 66.04) (xy 138.43 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "467c58be-b2bd-4488-b5cd-97a5f3b83135")
-	)
-	(wire
-		(pts
-			(xy 157.48 90.17) (xy 157.48 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "46b46a68-4121-433e-96b1-2e79b4a1b12c")
-	)
-	(wire
-		(pts
-			(xy 134.62 120.65) (xy 151.13 120.65)
+			(xy 135.89 100.33) (xy 152.4 100.33)
 		)
 		(stroke
 			(width 0)
@@ -1448,27 +1340,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 66.04) (xy 104.14 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "51fefd92-71c2-4fa0-be00-8a2b3042175d")
-	)
-	(wire
-		(pts
-			(xy 101.6 76.2) (xy 85.09 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "55d3cb09-9ed1-4b75-a90b-4233f5411868")
-	)
-	(wire
-		(pts
-			(xy 106.68 120.65) (xy 101.6 120.65)
+			(xy 107.95 100.33) (xy 102.87 100.33)
 		)
 		(stroke
 			(width 0)
@@ -1478,7 +1350,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 113.03) (xy 85.09 113.03)
+			(xy 102.87 92.71) (xy 86.36 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1488,7 +1360,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 97.79) (xy 157.48 97.79)
+			(xy 152.4 77.47) (xy 158.75 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1498,17 +1370,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 63.5) (xy 85.09 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6b88f283-1690-4678-bc02-6363cc9d8a49")
-	)
-	(wire
-		(pts
-			(xy 104.14 123.19) (xy 104.14 129.54)
+			(xy 105.41 102.87) (xy 105.41 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1518,7 +1380,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 97.79) (xy 157.48 100.33)
+			(xy 158.75 77.47) (xy 158.75 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1528,17 +1390,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 71.12) (xy 205.74 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a69f436-28ec-4f8a-81ac-a3f414bf2b02")
-	)
-	(wire
-		(pts
-			(xy 101.6 118.11) (xy 101.6 113.03)
+			(xy 102.87 97.79) (xy 102.87 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1548,87 +1400,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 71.12) (xy 101.6 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "85dc5112-bac4-4fc9-b3cb-a7b2b25e288e")
-	)
-	(wire
-		(pts
-			(xy 104.14 66.04) (xy 106.68 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "892d9f96-3852-49e7-898e-f8932c78780a")
-	)
-	(wire
-		(pts
-			(xy 151.13 90.17) (xy 157.48 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b464441-06be-4756-80b9-c30cc55b3360")
-	)
-	(wire
-		(pts
-			(xy 104.14 73.66) (xy 104.14 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d46f297-9bf6-428d-b129-aeb79987e944")
-	)
-	(wire
-		(pts
-			(xy 82.55 80.01) (xy 104.14 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ea0562e-94e8-481a-a318-61c813bea517")
-	)
-	(wire
-		(pts
-			(xy 151.13 48.26) (xy 151.13 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "91b6f634-cbf3-4393-936b-1d22eac74a12")
-	)
-	(wire
-		(pts
-			(xy 82.55 59.69) (xy 104.14 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "91de27ff-1bdc-46a6-9e2d-908b5494bc19")
-	)
-	(wire
-		(pts
-			(xy 157.48 48.26) (xy 157.48 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "92510c03-a87c-4e1f-92e8-9811f4bea21f")
-	)
-	(wire
-		(pts
-			(xy 104.14 115.57) (xy 106.68 115.57)
+			(xy 105.41 95.25) (xy 107.95 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1638,7 +1410,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 118.11) (xy 151.13 118.11)
+			(xy 135.89 97.79) (xy 152.4 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1648,7 +1420,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 120.65) (xy 101.6 125.73)
+			(xy 102.87 100.33) (xy 102.87 105.41)
 		)
 		(stroke
 			(width 0)
@@ -1658,27 +1430,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 71.12) (xy 151.13 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a3461228-b114-4d73-ad6c-40012c7f77e4")
-	)
-	(wire
-		(pts
-			(xy 199.39 68.58) (xy 205.74 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab2e9f94-e334-4589-bba3-b4dcb24079da")
-	)
-	(wire
-		(pts
-			(xy 151.13 139.7) (xy 157.48 139.7)
+			(xy 152.4 119.38) (xy 158.75 119.38)
 		)
 		(stroke
 			(width 0)
@@ -1688,7 +1440,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 115.57) (xy 138.43 115.57)
+			(xy 135.89 95.25) (xy 139.7 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1698,27 +1450,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 48.26) (xy 157.48 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "afc5aee5-720a-4fd5-aac7-5a26a3031b05")
-	)
-	(wire
-		(pts
-			(xy 157.48 90.17) (xy 199.39 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b24c0300-90db-4e9f-8be8-1f57dfcc7436")
-	)
-	(wire
-		(pts
-			(xy 106.68 123.19) (xy 104.14 123.19)
+			(xy 107.95 102.87) (xy 105.41 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1728,17 +1460,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 90.17) (xy 199.39 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b7b0114e-950d-4680-832f-97616ab3b213")
-	)
-	(wire
-		(pts
-			(xy 82.55 113.03) (xy 85.09 113.03)
+			(xy 83.82 92.71) (xy 86.36 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1748,7 +1470,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 125.73) (xy 85.09 125.73)
+			(xy 102.87 105.41) (xy 86.36 105.41)
 		)
 		(stroke
 			(width 0)
@@ -1758,7 +1480,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 139.7) (xy 199.39 120.65)
+			(xy 200.66 119.38) (xy 200.66 100.33)
 		)
 		(stroke
 			(width 0)
@@ -1768,7 +1490,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 97.79) (xy 199.39 97.79)
+			(xy 158.75 77.47) (xy 200.66 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1778,7 +1500,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 139.7) (xy 157.48 138.43)
+			(xy 158.75 119.38) (xy 158.75 118.11)
 		)
 		(stroke
 			(width 0)
@@ -1788,17 +1510,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 73.66) (xy 134.62 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cd4ec846-c29a-442b-9268-a3bdfb620027")
-	)
-	(wire
-		(pts
-			(xy 199.39 118.11) (xy 205.74 118.11)
+			(xy 200.66 97.79) (xy 207.01 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1808,7 +1520,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 139.7) (xy 199.39 139.7)
+			(xy 158.75 119.38) (xy 200.66 119.38)
 		)
 		(stroke
 			(width 0)
@@ -1818,7 +1530,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 123.19) (xy 134.62 123.19)
+			(xy 138.43 102.87) (xy 135.89 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1828,7 +1540,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 97.79) (xy 199.39 118.11)
+			(xy 200.66 77.47) (xy 200.66 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1838,7 +1550,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 120.65) (xy 151.13 139.7)
+			(xy 152.4 100.33) (xy 152.4 119.38)
 		)
 		(stroke
 			(width 0)
@@ -1848,7 +1560,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 129.54) (xy 104.14 129.54)
+			(xy 83.82 109.22) (xy 105.41 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1856,88 +1568,8 @@
 		)
 		(uuid "dda1fce9-e5fc-4b92-a030-4329ccc1a5ad")
 	)
-	(wire
-		(pts
-			(xy 106.68 73.66) (xy 104.14 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dfff2ad2-5000-4eae-9fc3-a1c42a5c1dff")
-	)
-	(wire
-		(pts
-			(xy 134.62 68.58) (xy 151.13 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e0de88ff-cfc2-40cf-ad79-4ba273ae5b02")
-	)
-	(wire
-		(pts
-			(xy 151.13 71.12) (xy 151.13 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e4a44c11-2ce3-4747-be15-b19ecf79dd05")
-	)
-	(wire
-		(pts
-			(xy 82.55 63.5) (xy 85.09 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e4b08bb1-21ec-4c87-9f7f-67b04a471bc7")
-	)
-	(wire
-		(pts
-			(xy 82.55 76.2) (xy 85.09 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea173d8e-367a-485f-9545-6e124d8c1ce8")
-	)
-	(wire
-		(pts
-			(xy 106.68 68.58) (xy 101.6 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eff359c7-c0ee-4909-aadb-431859ab1d57")
-	)
-	(wire
-		(pts
-			(xy 199.39 48.26) (xy 199.39 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa2c927d-b8b9-49ca-9370-dca7644c7c57")
-	)
-	(wire
-		(pts
-			(xy 101.6 71.12) (xy 101.6 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb89ad40-097d-4dde-80af-3c2cabfb4bb0")
-	)
-	(label "CAN H 2"
-		(at 190.5 97.79 0)
+	(label "CAN H 1"
+		(at 191.77 77.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1947,17 +1579,7 @@
 		(uuid "08bd41d1-aa7b-436c-ad25-3687ed492b03")
 	)
 	(label "TX 1"
-		(at 90.17 59.69 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0f411a0b-8a63-4d4f-8a12-7e83b4d76e76")
-	)
-	(label "TX 2"
-		(at 90.17 109.22 0)
+		(at 91.44 88.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1966,8 +1588,8 @@
 		)
 		(uuid "5c4b4d5e-09fd-4736-a9c5-b52c7693cea8")
 	)
-	(label "RX 2"
-		(at 90.17 129.54 0)
+	(label "RX 1"
+		(at 91.44 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1977,17 +1599,7 @@
 		(uuid "cafc2334-3556-45c7-bcff-f1173892e5d3")
 	)
 	(label "CAN L 1"
-		(at 190.5 90.17 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d9088c90-9c03-411b-93cf-fa88be747213")
-	)
-	(label "CAN L 2"
-		(at 190.5 139.7 0)
+		(at 191.77 119.38 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1996,29 +1608,9 @@
 		)
 		(uuid "e24aebb0-7ff6-4eca-ad69-2bebb14bdda6")
 	)
-	(label "RX 1"
-		(at 90.17 80.01 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f3581d0b-196a-4403-a5b3-92783eed34aa")
-	)
-	(label "CAN H 1"
-		(at 190.5 48.26 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f78336a4-a275-48c5-910e-717948d93ab5")
-	)
-	(hierarchical_label "CAN L 2"
+	(hierarchical_label "CAN L 1"
 		(shape bidirectional)
-		(at 205.74 120.65 0)
+		(at 207.01 100.33 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2027,20 +1619,9 @@
 		)
 		(uuid "16c99758-57d2-427b-8c75-701cb70bd083")
 	)
-	(hierarchical_label "CAN H 1"
-		(shape bidirectional)
-		(at 205.74 68.58 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1d336ce0-b1d7-4efa-9f07-5c1ded7dfa87")
-	)
-	(hierarchical_label "TX 2"
+	(hierarchical_label "TX 1"
 		(shape input)
-		(at 82.55 109.22 180)
+		(at 83.82 88.9 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2049,20 +1630,9 @@
 		)
 		(uuid "46c4285d-7634-4214-bc11-ae1619bb7651")
 	)
-	(hierarchical_label "TX 1"
-		(shape input)
-		(at 82.55 59.69 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "69fe4b7e-3617-4431-857b-7f8cfaf66c67")
-	)
-	(hierarchical_label "RX 2"
+	(hierarchical_label "RX 1"
 		(shape output)
-		(at 82.55 129.54 180)
+		(at 83.82 109.22 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2071,9 +1641,9 @@
 		)
 		(uuid "9e127033-c821-43a6-8f67-a52979dc02e3")
 	)
-	(hierarchical_label "CAN H 2"
+	(hierarchical_label "CAN H 1"
 		(shape bidirectional)
-		(at 205.74 118.11 0)
+		(at 207.01 97.79 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2082,31 +1652,9 @@
 		)
 		(uuid "dbc8b7ee-8747-447f-9bc5-ea60e42d7474")
 	)
-	(hierarchical_label "RX 1"
-		(shape output)
-		(at 82.55 80.01 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e0df29b9-8a5f-4f3a-8c87-ba518bed4636")
-	)
-	(hierarchical_label "CAN L 1"
-		(shape bidirectional)
-		(at 205.74 71.12 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e96114c9-784e-49d5-afc9-2f83a9e9cd6a")
-	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 82.55 125.73 90)
+		(at 83.82 105.41 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2115,7 +1663,7 @@
 		(fields_autoplaced yes)
 		(uuid "3014f446-2eed-46ab-953e-b02aee985caf")
 		(property "Reference" "#PWR03"
-			(at 86.36 125.73 0)
+			(at 87.63 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2124,7 +1672,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 78.74 125.7301 90)
+			(at 80.01 105.4101 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2133,7 +1681,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 82.55 125.73 0)
+			(at 83.82 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2142,7 +1690,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 82.55 125.73 0)
+			(at 83.82 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2151,7 +1699,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 82.55 125.73 0)
+			(at 83.82 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2173,7 +1721,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:TLE6250GV33XUMA1")
-		(at 106.68 115.57 0)
+		(at 107.95 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2181,7 +1729,7 @@
 		(dnp no)
 		(uuid "31cdeb02-01fb-412a-9104-4703d15eb0dc")
 		(property "Reference" "IC1"
-			(at 120.65 107.95 0)
+			(at 121.92 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2189,7 +1737,7 @@
 			)
 		)
 		(property "Value" "TLE6250GV33XUMA1"
-			(at 120.65 110.49 0)
+			(at 121.92 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2197,7 +1745,7 @@
 			)
 		)
 		(property "Footprint" "SOIC127P600X175-8N"
-			(at 130.81 210.49 0)
+			(at 132.08 190.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2207,7 +1755,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-TLE6250-DataSheet-v04_20-EN.pdf?fileId=5546d46259d9a4bf015a3d3687956174"
-			(at 130.81 310.49 0)
+			(at 132.08 290.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2217,7 +1765,7 @@
 			)
 		)
 		(property "Description" "CAN Interface IC 12 -24 V 70 mA CAN Transceiver"
-			(at 106.68 115.57 0)
+			(at 107.95 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2226,7 +1774,7 @@
 			)
 		)
 		(property "Height" "1.75"
-			(at 130.81 510.49 0)
+			(at 132.08 490.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2236,7 +1784,7 @@
 			)
 		)
 		(property "Mouser Part Number" "726-TLE6250GV33XUMA1"
-			(at 130.81 610.49 0)
+			(at 132.08 590.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2246,7 +1794,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/TLE6250GV33XUMA1?qs=OwbwYO03UsJ9UcCPEQ3lNA%3D%3D"
-			(at 130.81 710.49 0)
+			(at 132.08 690.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2256,7 +1804,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Infineon"
-			(at 130.81 810.49 0)
+			(at 132.08 790.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2266,7 +1814,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "TLE6250GV33XUMA1"
-			(at 130.81 910.49 0)
+			(at 132.08 890.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2309,198 +1857,8 @@
 		)
 	)
 	(symbol
-		(lib_id "SamacSys_Parts:CL10B104KB8NNNC")
-		(at 85.09 76.2 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4490d501-0a09-40f5-9305-f56247d0cb60")
-		(property "Reference" "C2"
-			(at 88.9 68.5799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "0.1μF 50V"
-			(at 88.9 71.1199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "CAPC1608X90N"
-			(at 181.28 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA10/2408969.pdf"
-			(at 281.28 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Ceramic cap 0603 X7R 50V 100nF (Reel)"
-			(at 85.09 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.9"
-			(at 481.28 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Bürklin Part Number" ""
-			(at 581.28 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Bürklin Price/Stock" ""
-			(at 681.28 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "SAMSUNG"
-			(at 781.28 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CL10B104KB8NNNC"
-			(at 881.28 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e5702d6a-4919-451d-9ea4-abc68e95dfda")
-		)
-		(pin "1"
-			(uuid "ce391eef-35f4-4e99-b8d9-bf2a415e83fc")
-		)
-		(instances
-			(project "glr-pcb-template"
-				(path "/be608b80-d1f2-4edd-b7a6-2b7cddd9f44f/042b8a59-42b1-451e-b61b-604f57929997"
-					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 137.16 73.66 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4f456ce5-b053-40c0-a59f-00575eebe73d")
-		(property "Reference" "#PWR04"
-			(at 133.35 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 140.97 73.6599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 137.16 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 137.16 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 137.16 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "aff204a8-d699-47f2-abe0-1967adcd09c1")
-		)
-		(instances
-			(project "glr-pcb-template"
-				(path "/be608b80-d1f2-4edd-b7a6-2b7cddd9f44f/042b8a59-42b1-451e-b61b-604f57929997"
-					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDREF")
-		(at 82.55 113.03 270)
+		(at 83.82 92.71 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2508,7 +1866,7 @@
 		(dnp no)
 		(uuid "503667ed-87ba-4419-a132-285faf5cb5db")
 		(property "Reference" "#PWR01"
-			(at 76.2 113.03 0)
+			(at 77.47 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2517,7 +1875,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 78.74 113.0301 90)
+			(at 80.01 92.7101 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2526,7 +1884,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 82.55 113.03 0)
+			(at 83.82 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2535,7 +1893,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 82.55 113.03 0)
+			(at 83.82 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2544,7 +1902,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 82.55 113.03 0)
+			(at 83.82 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2566,7 +1924,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:CL10B104KB8NNNC")
-		(at 85.09 125.73 90)
+		(at 86.36 105.41 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2575,7 +1933,7 @@
 		(fields_autoplaced yes)
 		(uuid "50ae9366-3a24-436d-9993-05bcbd249843")
 		(property "Reference" "C1"
-			(at 88.9 118.1099 90)
+			(at 90.17 97.7899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2584,7 +1942,7 @@
 			)
 		)
 		(property "Value" "0.1μF 50V"
-			(at 88.9 120.6499 90)
+			(at 90.17 100.3299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2593,7 +1951,7 @@
 			)
 		)
 		(property "Footprint" "CAPC1608X90N"
-			(at 181.28 116.84 0)
+			(at 182.55 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2603,7 +1961,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA10/2408969.pdf"
-			(at 281.28 116.84 0)
+			(at 282.55 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2613,7 +1971,7 @@
 			)
 		)
 		(property "Description" "Ceramic cap 0603 X7R 50V 100nF (Reel)"
-			(at 85.09 125.73 0)
+			(at 86.36 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2622,7 +1980,7 @@
 			)
 		)
 		(property "Height" "0.9"
-			(at 481.28 116.84 0)
+			(at 482.55 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2632,7 +1990,7 @@
 			)
 		)
 		(property "Bürklin Part Number" ""
-			(at 581.28 116.84 0)
+			(at 582.55 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2642,7 +2000,7 @@
 			)
 		)
 		(property "Bürklin Price/Stock" ""
-			(at 681.28 116.84 0)
+			(at 682.55 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2652,7 +2010,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "SAMSUNG"
-			(at 781.28 116.84 0)
+			(at 782.55 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2662,7 +2020,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CL10B104KB8NNNC"
-			(at 881.28 116.84 0)
+			(at 882.55 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2687,319 +2045,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 82.55 76.2 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "79445a60-cf0c-4414-b1a1-59eccc80a301")
-		(property "Reference" "#PWR016"
-			(at 86.36 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 78.74 76.2001 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 82.55 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 82.55 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 82.55 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a69ee7f4-1be1-4682-850a-42e6446b2a0c")
-		)
-		(instances
-			(project "glr-pcb-template"
-				(path "/be608b80-d1f2-4edd-b7a6-2b7cddd9f44f/042b8a59-42b1-451e-b61b-604f57929997"
-					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SamacSys_Parts:CRCW060368R1FKEA")
-		(at 157.48 68.58 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "96700811-d6cc-43f1-b02e-48008bd56152")
-		(property "Reference" "R3"
-			(at 160.528 58.674 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "120.0 Ω"
-			(at 159.258 60.96 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "RESC1608X50N"
-			(at 253.67 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/20035/dcrcwe3.pdf"
-			(at 353.67 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Vishay CRCW Series Thick Film Surface Mount Resistor 0603 Case 68.1 +/-1% 0.1W +/-100ppm/C"
-			(at 157.48 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.5"
-			(at 553.67 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 653.67 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 753.67 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Vishay"
-			(at 853.67 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CRCW060368R1FKEA"
-			(at 953.67 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b6c4fa8b-643c-4618-86e3-deb8235496d4")
-		)
-		(pin "2"
-			(uuid "f09b8643-98eb-44cb-8210-cc3836f0a498")
-		)
-		(instances
-			(project "glr-pcb-template"
-				(path "/be608b80-d1f2-4edd-b7a6-2b7cddd9f44f/042b8a59-42b1-451e-b61b-604f57929997"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SamacSys_Parts:ESDCAN01-2BLY")
-		(at 199.39 68.58 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a9406ff3-29d1-413b-950e-55cbf33fb089")
-		(property "Reference" "D2"
-			(at 189.23 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ESDCAN01-2BLY"
-			(at 189.23 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SOT95P255X125-3N"
-			(at 182.88 163.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://componentsearchengine.com/Datasheets/2/ESDCAN01-2BLY.pdf"
-			(at 182.88 263.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "STMICROELECTRONICS - ESDCAN01-2BLY - DIODE, TVS, CAN BUS, 230W, SOT-23-3"
-			(at 199.39 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.25"
-			(at 182.88 463.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "511-ESDCAN01-2BLY"
-			(at 182.88 563.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/ESDCAN01-2BLY?qs=Ok1pvOkw6%2FpNzC2RQnWwPA%3D%3D"
-			(at 182.88 663.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "STMicroelectronics"
-			(at 182.88 763.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "ESDCAN01-2BLY"
-			(at 182.88 863.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "77ece6fd-358c-4240-9287-ee626aab4d73")
-		)
-		(pin "1"
-			(uuid "24a15d2d-70fd-430e-819d-652df8c03498")
-		)
-		(pin "2"
-			(uuid "eff76f64-f83d-406a-a2e8-aca43f2bb1a9")
-		)
-		(instances
-			(project "glr-pcb-template"
-				(path "/be608b80-d1f2-4edd-b7a6-2b7cddd9f44f/042b8a59-42b1-451e-b61b-604f57929997"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDREF")
-		(at 138.43 115.57 90)
+		(at 139.7 95.25 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3008,7 +2055,7 @@
 		(fields_autoplaced yes)
 		(uuid "ad07ced6-5e98-4ce1-8e12-2aba9aeba348")
 		(property "Reference" "#PWR06"
-			(at 144.78 115.57 0)
+			(at 146.05 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3017,7 +2064,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 142.24 115.5699 90)
+			(at 143.51 95.2499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3026,7 +2073,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 138.43 115.57 0)
+			(at 139.7 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3035,7 +2082,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 138.43 115.57 0)
+			(at 139.7 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3044,7 +2091,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 138.43 115.57 0)
+			(at 139.7 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3065,141 +2112,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDREF")
-		(at 82.55 63.5 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c03cd9c5-4ed8-4027-954f-82aa38ee79a8")
-		(property "Reference" "#PWR013"
-			(at 76.2 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 78.74 63.5001 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 82.55 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 82.55 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 82.55 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "625c8432-f7aa-465b-9c29-cd0888a0c0a1")
-		)
-		(instances
-			(project "glr-pcb-template"
-				(path "/be608b80-d1f2-4edd-b7a6-2b7cddd9f44f/042b8a59-42b1-451e-b61b-604f57929997"
-					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDREF")
-		(at 138.43 66.04 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c22b9f63-780e-40a0-9ade-85c81a5af912")
-		(property "Reference" "#PWR02"
-			(at 144.78 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 142.24 66.0399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 138.43 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 138.43 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 138.43 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f577cf05-1775-4442-bbce-21a5bb3fd30b")
-		)
-		(instances
-			(project "glr-pcb-template"
-				(path "/be608b80-d1f2-4edd-b7a6-2b7cddd9f44f/042b8a59-42b1-451e-b61b-604f57929997"
-					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "SamacSys_Parts:CRCW060368R1FKEA")
-		(at 157.48 138.43 90)
+		(at 158.75 118.11 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3207,7 +2121,7 @@
 		(dnp no)
 		(uuid "cbfd5328-7b42-4703-bc80-14bfd23da6c5")
 		(property "Reference" "R2"
-			(at 159.258 128.016 90)
+			(at 160.528 107.696 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3216,7 +2130,7 @@
 			)
 		)
 		(property "Value" "120.0 Ω"
-			(at 159.258 130.556 90)
+			(at 160.528 110.236 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3225,7 +2139,7 @@
 			)
 		)
 		(property "Footprint" "RESC1608X50N"
-			(at 253.67 124.46 0)
+			(at 254.94 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3235,7 +2149,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/20035/dcrcwe3.pdf"
-			(at 353.67 124.46 0)
+			(at 354.94 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3245,7 +2159,7 @@
 			)
 		)
 		(property "Description" "Vishay CRCW Series Thick Film Surface Mount Resistor 0603 Case 68.1 +/-1% 0.1W +/-100ppm/C"
-			(at 157.48 138.43 0)
+			(at 158.75 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3254,7 +2168,7 @@
 			)
 		)
 		(property "Height" "0.5"
-			(at 553.67 124.46 0)
+			(at 554.94 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3264,7 +2178,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 653.67 124.46 0)
+			(at 654.94 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3274,7 +2188,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 753.67 124.46 0)
+			(at 754.94 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3284,7 +2198,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Vishay"
-			(at 853.67 124.46 0)
+			(at 854.94 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3294,7 +2208,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CRCW060368R1FKEA"
-			(at 953.67 124.46 0)
+			(at 954.94 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3320,7 +2234,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:ESDCAN01-2BLY")
-		(at 199.39 118.11 0)
+		(at 200.66 97.79 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3330,7 +2244,7 @@
 		(fields_autoplaced yes)
 		(uuid "cdf542fe-c647-4560-9627-116d0435ccb8")
 		(property "Reference" "D1"
-			(at 189.23 110.49 0)
+			(at 190.5 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3338,7 +2252,7 @@
 			)
 		)
 		(property "Value" "ESDCAN01-2BLY"
-			(at 189.23 113.03 0)
+			(at 190.5 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3346,7 +2260,7 @@
 			)
 		)
 		(property "Footprint" "SOT95P255X125-3N"
-			(at 182.88 213.03 0)
+			(at 184.15 192.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3356,7 +2270,7 @@
 			)
 		)
 		(property "Datasheet" "https://componentsearchengine.com/Datasheets/2/ESDCAN01-2BLY.pdf"
-			(at 182.88 313.03 0)
+			(at 184.15 292.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3366,7 +2280,7 @@
 			)
 		)
 		(property "Description" "STMICROELECTRONICS - ESDCAN01-2BLY - DIODE, TVS, CAN BUS, 230W, SOT-23-3"
-			(at 199.39 118.11 0)
+			(at 200.66 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3375,7 +2289,7 @@
 			)
 		)
 		(property "Height" "1.25"
-			(at 182.88 513.03 0)
+			(at 184.15 492.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3385,7 +2299,7 @@
 			)
 		)
 		(property "Mouser Part Number" "511-ESDCAN01-2BLY"
-			(at 182.88 613.03 0)
+			(at 184.15 592.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3395,7 +2309,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/ESDCAN01-2BLY?qs=Ok1pvOkw6%2FpNzC2RQnWwPA%3D%3D"
-			(at 182.88 713.03 0)
+			(at 184.15 692.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3405,7 +2319,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "STMicroelectronics"
-			(at 182.88 813.03 0)
+			(at 184.15 792.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3415,7 +2329,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "ESDCAN01-2BLY"
-			(at 182.88 913.03 0)
+			(at 184.15 892.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3443,266 +2357,8 @@
 		)
 	)
 	(symbol
-		(lib_id "SamacSys_Parts:CRCW060368R1FKEA")
-		(at 157.48 88.9 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d07b05ca-608c-4862-9516-b6acf6c794a0")
-		(property "Reference" "R4"
-			(at 159.258 78.486 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "120.0 Ω"
-			(at 159.258 81.026 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "RESC1608X50N"
-			(at 253.67 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/20035/dcrcwe3.pdf"
-			(at 353.67 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Vishay CRCW Series Thick Film Surface Mount Resistor 0603 Case 68.1 +/-1% 0.1W +/-100ppm/C"
-			(at 157.48 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.5"
-			(at 553.67 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 653.67 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 753.67 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Vishay"
-			(at 853.67 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CRCW060368R1FKEA"
-			(at 953.67 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2264dc71-e248-477b-81f3-2e298c131ae9")
-		)
-		(pin "2"
-			(uuid "536f0009-32de-48c4-88f9-189045b74eb2")
-		)
-		(instances
-			(project "glr-pcb-template"
-				(path "/be608b80-d1f2-4edd-b7a6-2b7cddd9f44f/042b8a59-42b1-451e-b61b-604f57929997"
-					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SamacSys_Parts:TLE6250GV33XUMA1")
-		(at 106.68 66.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d6db3c80-4055-4992-9633-a9d5cd41a68b")
-		(property "Reference" "IC2"
-			(at 120.65 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TLE6250GV33XUMA1"
-			(at 120.65 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SOIC127P600X175-8N"
-			(at 130.81 160.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-TLE6250-DataSheet-v04_20-EN.pdf?fileId=5546d46259d9a4bf015a3d3687956174"
-			(at 130.81 260.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAN Interface IC 12 -24 V 70 mA CAN Transceiver"
-			(at 106.68 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.75"
-			(at 130.81 460.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "726-TLE6250GV33XUMA1"
-			(at 130.81 560.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/TLE6250GV33XUMA1?qs=OwbwYO03UsJ9UcCPEQ3lNA%3D%3D"
-			(at 130.81 660.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Infineon"
-			(at 130.81 760.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "TLE6250GV33XUMA1"
-			(at 130.81 860.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7c2debff-4d92-4c9a-ac1b-49540d126353")
-		)
-		(pin "1"
-			(uuid "872f1ad6-b23c-4e2a-bdc8-82d145b71bd5")
-		)
-		(pin "5"
-			(uuid "7ec480bf-1d0a-4253-9c78-882d98b2dfe5")
-		)
-		(pin "4"
-			(uuid "19a9b6cd-b6d0-4d65-bc0a-15127b9b3778")
-		)
-		(pin "3"
-			(uuid "cf3de9fe-d3b8-4a63-a151-e2754baf574d")
-		)
-		(pin "8"
-			(uuid "abe7760a-be7a-4732-9ea3-7892dfb237c8")
-		)
-		(pin "7"
-			(uuid "6527bdf3-4c7f-4d63-b1e8-a72d1382f296")
-		)
-		(pin "6"
-			(uuid "046e981f-edcf-4b34-98c0-f056643cf259")
-		)
-		(instances
-			(project "glr-pcb-template"
-				(path "/be608b80-d1f2-4edd-b7a6-2b7cddd9f44f/042b8a59-42b1-451e-b61b-604f57929997"
-					(reference "IC2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDREF")
-		(at 179.07 118.11 270)
+		(at 180.34 97.79 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3710,7 +2366,7 @@
 		(dnp no)
 		(uuid "dd302054-66a9-40ac-a459-d61afeb446cc")
 		(property "Reference" "#PWR07"
-			(at 172.72 118.11 0)
+			(at 173.99 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3719,7 +2375,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 175.26 118.1101 90)
+			(at 176.53 97.7901 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3728,7 +2384,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 179.07 118.11 0)
+			(at 180.34 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3737,7 +2393,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 179.07 118.11 0)
+			(at 180.34 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3746,7 +2402,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 179.07 118.11 0)
+			(at 180.34 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3768,7 +2424,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:CRCW060368R1FKEA")
-		(at 157.48 118.11 90)
+		(at 158.75 97.79 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3776,7 +2432,7 @@
 		(dnp no)
 		(uuid "e1cf624d-7903-42cf-9f94-ca1a4ed750fa")
 		(property "Reference" "R1"
-			(at 160.528 108.204 90)
+			(at 161.798 87.884 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3784,7 +2440,7 @@
 			)
 		)
 		(property "Value" "120.0 Ω"
-			(at 159.258 110.49 90)
+			(at 160.528 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3793,7 +2449,7 @@
 			)
 		)
 		(property "Footprint" "RESC1608X50N"
-			(at 253.67 104.14 0)
+			(at 254.94 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3803,7 +2459,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/20035/dcrcwe3.pdf"
-			(at 353.67 104.14 0)
+			(at 354.94 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3813,7 +2469,7 @@
 			)
 		)
 		(property "Description" "Vishay CRCW Series Thick Film Surface Mount Resistor 0603 Case 68.1 +/-1% 0.1W +/-100ppm/C"
-			(at 157.48 118.11 0)
+			(at 158.75 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3822,7 +2478,7 @@
 			)
 		)
 		(property "Height" "0.5"
-			(at 553.67 104.14 0)
+			(at 554.94 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3832,7 +2488,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 653.67 104.14 0)
+			(at 654.94 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3842,7 +2498,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 753.67 104.14 0)
+			(at 754.94 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3852,7 +2508,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Vishay"
-			(at 853.67 104.14 0)
+			(at 854.94 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3862,7 +2518,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CRCW060368R1FKEA"
-			(at 953.67 104.14 0)
+			(at 954.94 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3888,7 +2544,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 137.16 123.19 270)
+		(at 138.43 102.87 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3898,7 +2554,7 @@
 		(fields_autoplaced yes)
 		(uuid "eee2ce76-de15-497f-b735-c6484f431cd8")
 		(property "Reference" "#PWR05"
-			(at 133.35 123.19 0)
+			(at 134.62 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3907,7 +2563,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 140.97 123.1899 90)
+			(at 142.24 102.8699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3916,7 +2572,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 137.16 123.19 0)
+			(at 138.43 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3925,7 +2581,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 123.19 0)
+			(at 138.43 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3934,7 +2590,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 137.16 123.19 0)
+			(at 138.43 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3949,72 +2605,6 @@
 			(project "glr-pcb-template"
 				(path "/be608b80-d1f2-4edd-b7a6-2b7cddd9f44f/042b8a59-42b1-451e-b61b-604f57929997"
 					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDREF")
-		(at 179.07 68.58 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f163c97e-d086-46a2-ab36-5b20eb92ed8a")
-		(property "Reference" "#PWR015"
-			(at 172.72 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 175.26 68.5801 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 179.07 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 179.07 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 179.07 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5d922102-9d83-449a-b4cd-eabbf3c8b418")
-		)
-		(instances
-			(project "glr-pcb-template"
-				(path "/be608b80-d1f2-4edd-b7a6-2b7cddd9f44f/042b8a59-42b1-451e-b61b-604f57929997"
-					(reference "#PWR015")
 					(unit 1)
 				)
 			)
