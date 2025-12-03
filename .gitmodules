@@ -1,3 +1,6 @@
 [submodule "glr-kicad-library"]
 	path = glr-kicad-library
 	url = https://github.com/green-lion-racing/glr-kicad-library.git
+[submodule "KiCad-Library"]
+	path = wuerth-kicad-library
+	url = https://github.com/WurthElektronik/KiCad-Library.git
