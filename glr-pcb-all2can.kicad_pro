@@ -278,24 +278,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      [
-        "lib_symbol_mismatch|1079500|952500|31cdeb02-01fb-412a-9104-4703d15eb0dc|00000000-0000-0000-0000-000000000000|||",
-        "Intended."
-      ],
-      [
-        "lib_symbol_mismatch|2413000|850900|89f836ef-2114-4f7d-a493-588140b01514|00000000-0000-0000-0000-000000000000|||",
-        "Intended."
-      ],
-      [
-        "lib_symbol_mismatch|406400|1701800|076ce589-ed34-4af3-9578-d0113956c4e8|00000000-0000-0000-0000-000000000000|||",
-        "Intended."
-      ],
-      [
-        "lib_symbol_mismatch|914400|1701800|57584e91-162c-4a99-9dce-1e7f30752fad|00000000-0000-0000-0000-000000000000|||",
-        "Intended."
-      ]
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -498,15 +481,15 @@
       "no_connect_connected": "warning",
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
-      "pin_not_driven": "ignore",
-      "pin_to_pin": "error",
-      "power_pin_not_driven": "ignore",
+      "pin_not_driven": "error",
+      "pin_to_pin": "warning",
+      "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
       "similar_power": "warning",
       "simulation_model_issue": "ignore",
-      "single_global_label": "warning",
+      "single_global_label": "ignore",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
       "undefined_netclass": "error",
@@ -629,90 +612,12 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Bürklin Price/Stock",
-          "name": "Bürklin Price/Stock",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Height",
-          "name": "Height",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Iout (A)",
-          "name": "Iout (A)",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Manufacturer_Name",
-          "name": "Manufacturer_Name",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Manufacturer_Part_Number",
-          "name": "Manufacturer_Part_Number",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Mouser Part Number",
-          "name": "Mouser Part Number",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Mouser Price/Stock",
-          "name": "Mouser Price/Stock",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Pins",
-          "name": "Sim.Pins",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Vin (V)",
-          "name": "Vin (V)",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Vout (V)",
-          "name": "Vout (V)",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Bürklin Part Number",
-          "name": "Bürklin Part Number",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Description",
-          "name": "Description",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "#",
-          "name": "${ITEM_NUMBER}",
-          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "",
+      "name": "Default Editing",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -744,14 +649,6 @@
       "version": 1
     },
     "net_format_name": "",
-    "ngspice": {
-      "fix_include_paths": true,
-      "meta": {
-        "version": 0
-      },
-      "model_mode": 4,
-      "workbook_filename": ""
-    },
     "page_layout_descr_file": "",
     "plot_directory": "output/",
     "space_save_all_events": true,
