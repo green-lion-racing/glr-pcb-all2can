@@ -4981,8 +4981,8 @@
 		(uuid 2a301d19-9293-49ac-83e4-dfda65f81264)
 	)
 	(rectangle
-		(start 15.24 27.94)
-		(end 46.99 50.8)
+		(start 15.24 53.34)
+		(end 46.99 76.2)
 		(stroke
 			(width 0)
 			(type default)
@@ -4990,11 +4990,11 @@
 		(fill
 			(type none)
 		)
-		(uuid 3a237064-9f63-4612-8dcf-b5a78efecd8b)
+		(uuid 2b3c5b8a-dfe1-4cec-b3c7-81be9c4df50e)
 	)
 	(rectangle
-		(start 15.24 53.34)
-		(end 46.99 76.2)
+		(start 15.24 27.94)
+		(end 46.99 50.8)
 		(stroke
 			(width 0)
 			(type default)
@@ -5053,14 +5053,14 @@
 	)
 	(text "Optional I2C header"
 		(exclude_from_sim no)
-		(at 16.256 28.956 0)
+		(at 16.256 54.356 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left top)
 		)
-		(uuid "135c5d96-98c6-4c09-8a1d-4f0a54b65ea3")
+		(uuid "063d8035-3cb5-4ae7-a612-2705f8d11b32")
 	)
 	(text "This PCB has a long history of desgins.\nFrist version in CircuitMaker. https://circuitmaker.com/Projects/Details/Pat-Her/All2Can-V01\nSecond version also in CircuitMaker with some changes. https://circuitmaker.com/Projects/Details/Jannis-Dohm/All2Can\nThird in Fusion 360, with new PCB design.\nNow fourth version in KiCad, with some changes to schematic and smaller PCB. https://github.com/green-lion-racing/glr-pcb-all2can"
 		(exclude_from_sim no)
@@ -5075,7 +5075,7 @@
 	)
 	(text "Optional SPI header\n"
 		(exclude_from_sim no)
-		(at 16.256 54.356 0)
+		(at 16.256 28.956 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5268,6 +5268,22 @@
 		(at 40.64 111.76)
 		(uuid "1058fd43-942e-41cb-9c1f-c4824d221501")
 	)
+	(no_connect
+		(at 102.87 81.28)
+		(uuid "999fa682-8d50-43a5-8be3-6ddc8da18c61")
+	)
+	(no_connect
+		(at 102.87 78.74)
+		(uuid "9b0491a2-baff-45d8-96f3-bd3189f582bb")
+	)
+	(no_connect
+		(at 120.65 109.22)
+		(uuid "ecb5dd4f-1cc4-421b-ae1d-b95897af0cec")
+	)
+	(no_connect
+		(at 118.11 109.22)
+		(uuid "f922fce3-90ad-4bb1-813c-18bf6bd8189a")
+	)
 	(wire
 		(pts
 			(xy 217.17 111.76) (xy 217.17 110.49)
@@ -5280,7 +5296,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 67.31) (xy 30.48 67.31)
+			(xy 27.94 41.91) (xy 30.48 41.91)
 		)
 		(stroke
 			(width 0)
@@ -5550,7 +5566,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 69.85) (xy 30.48 69.85)
+			(xy 27.94 44.45) (xy 30.48 44.45)
 		)
 		(stroke
 			(width 0)
@@ -6080,6 +6096,16 @@
 	)
 	(wire
 		(pts
+			(xy 29.21 67.31) (xy 31.75 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d835a0c-7481-455e-8449-5f19e1ac0578")
+	)
+	(wire
+		(pts
 			(xy 43.18 105.41) (xy 45.72 105.41)
 		)
 		(stroke
@@ -6220,13 +6246,13 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 41.91) (xy 31.75 41.91)
+			(xy 29.21 64.77) (xy 31.75 64.77)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "82e8f195-6983-4678-87ce-ea2bec03dc1c")
+		(uuid "85195474-9ac1-4d20-a625-7560e943e0c1")
 	)
 	(wire
 		(pts
@@ -6517,16 +6543,6 @@
 			(type default)
 		)
 		(uuid "b1f140aa-2dec-468d-805b-3af18a5b11ac")
-	)
-	(wire
-		(pts
-			(xy 29.21 39.37) (xy 31.75 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b2265d34-7d80-459b-83e6-bc2fa59def5d")
 	)
 	(wire
 		(pts
@@ -6840,7 +6856,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 64.77) (xy 30.48 64.77)
+			(xy 27.94 39.37) (xy 30.48 39.37)
 		)
 		(stroke
 			(width 0)
@@ -6900,7 +6916,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 62.23) (xy 30.48 62.23)
+			(xy 27.94 36.83) (xy 30.48 36.83)
 		)
 		(stroke
 			(width 0)
@@ -6947,6 +6963,26 @@
 			(type default)
 		)
 		(uuid "ec856aa8-365c-42d8-ba57-d9e72b80a9e3")
+	)
+	(wire
+		(pts
+			(xy 209.55 133.35) (xy 212.09 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee8458db-ba29-4f33-a97e-1e95c6f77fc8")
+	)
+	(wire
+		(pts
+			(xy 209.55 130.81) (xy 212.09 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f15c7289-4359-44ed-8bf1-e1dc21f3e93f")
 	)
 	(wire
 		(pts
@@ -7112,6 +7148,28 @@
 			)
 		)
 	)
+	(global_label "I2C1_SCL"
+		(shape input)
+		(at 31.75 67.31 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.143 1.143)
+			)
+			(justify left)
+		)
+		(uuid "020aebf7-9c6e-4041-89fa-3784be216640")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 42.3288 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "FDCAN1_TX"
 		(shape input)
 		(at 135.89 111.76 270)
@@ -7178,28 +7236,6 @@
 			)
 		)
 	)
-	(global_label "LED_1"
-		(shape input)
-		(at 110.49 140.97 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.143 1.143)
-			)
-			(justify left)
-		)
-		(uuid "24046cf7-8fd5-4fad-955a-134fc6e99eb8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 118.2384 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "LED_2"
 		(shape input)
 		(at 110.49 151.13 0)
@@ -7213,6 +7249,28 @@
 		(uuid "24046cf7-8fd5-4fad-955a-134fc6e99eb8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 118.2384 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LED_1"
+		(shape input)
+		(at 110.49 140.97 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.143 1.143)
+			)
+			(justify left)
+		)
+		(uuid "24046cf7-8fd5-4fad-955a-134fc6e99eb8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 118.2384 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7246,7 +7304,7 @@
 	)
 	(global_label "I2C1_SDA"
 		(shape input)
-		(at 31.75 39.37 0)
+		(at 212.09 130.81 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7254,9 +7312,9 @@
 			)
 			(justify left)
 		)
-		(uuid "27ffd498-87a1-4091-bf63-4a0a96b01ef9")
+		(uuid "31f7c1a9-1c4a-4aa6-bec0-9d1ab8bc602a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 42.3832 39.37 0)
+			(at 222.7232 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7312,7 +7370,7 @@
 	)
 	(global_label "SPI1_MISO"
 		(shape input)
-		(at 30.48 67.31 0)
+		(at 30.48 41.91 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7322,7 +7380,7 @@
 		)
 		(uuid "394e4dd1-98d1-42d9-a217-83d85101847e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 42.0385 67.31 0)
+			(at 42.0385 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7442,28 +7500,6 @@
 			)
 		)
 	)
-	(global_label "IC_OUT_3"
-		(shape input)
-		(at 128.27 50.8 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.143 1.143)
-			)
-			(justify left)
-		)
-		(uuid "52ef8791-450a-4c7e-85fd-e4fc5f17cfa9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 128.27 40.3301 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "IC_OUT_1"
 		(shape input)
 		(at 133.35 50.8 90)
@@ -7477,6 +7513,28 @@
 		(uuid "52ef8791-450a-4c7e-85fd-e4fc5f17cfa9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 133.35 40.3301 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "IC_OUT_3"
+		(shape input)
+		(at 128.27 50.8 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.143 1.143)
+			)
+			(justify left)
+		)
+		(uuid "52ef8791-450a-4c7e-85fd-e4fc5f17cfa9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 128.27 40.3301 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7532,7 +7590,7 @@
 	)
 	(global_label "SPI1_NSS"
 		(shape input)
-		(at 30.48 62.23 0)
+		(at 30.48 36.83 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7542,7 +7600,7 @@
 		)
 		(uuid "531dd1b5-a3fa-4039-b97f-96c0883f7c79")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 41.2765 62.23 0)
+			(at 41.2765 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7587,6 +7645,28 @@
 		(uuid "57b1630f-8236-4d1c-9874-66b5a33e2f10")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 162.6159 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "I2C1_SDA"
+		(shape input)
+		(at 31.75 64.77 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.143 1.143)
+			)
+			(justify left)
+		)
+		(uuid "6cdcdf2e-8ad0-4688-ab7c-cc7ddd9fad4e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 42.3832 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7702,6 +7782,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "I2C1_SCL"
+		(shape input)
+		(at 212.09 133.35 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.143 1.143)
+			)
+			(justify left)
+		)
+		(uuid "931cafe4-7757-42fc-b904-b441aea3f86a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 222.6688 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -7950,7 +8052,7 @@
 	)
 	(global_label "SPI1_MOSI"
 		(shape input)
-		(at 30.48 69.85 0)
+		(at 30.48 44.45 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7960,7 +8062,7 @@
 		)
 		(uuid "a375cb1c-2e2e-43b5-820b-84923f293849")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 42.0385 69.85 0)
+			(at 42.0385 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8060,7 +8162,7 @@
 	)
 	(global_label "SPI1_SCK"
 		(shape input)
-		(at 30.48 64.77 0)
+		(at 30.48 39.37 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8070,7 +8172,7 @@
 		)
 		(uuid "bfffec2d-a046-4e97-a235-2b29d783b575")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 41.2765 64.77 0)
+			(at 41.2765 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8181,28 +8283,6 @@
 		(uuid "da7518d6-5c68-4a82-a97a-61b69f76e019")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 161.6361 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "I2C1_SCL"
-		(shape input)
-		(at 31.75 41.91 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.143 1.143)
-			)
-			(justify left)
-		)
-		(uuid "e6934645-12fb-4032-89bf-7b3bfaa78700")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 42.3288 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8743,7 +8823,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10u"
 			(at 52.578 133.35 0)
 			(effects
 				(font
@@ -8857,74 +8937,6 @@
 			(project "glr-pcb-all2can"
 				(path "/be608b80-d1f2-4edd-b7a6-2b7cddd9f44f"
 					(reference "R30")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 24.13 39.37 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5b608ba9-0a9c-452d-a45e-984fa625e518")
-		(property "Reference" "J4"
-			(at 24.13 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x02"
-			(at 24.13 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
-			(at 24.13 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 24.13 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 24.13 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "61c3bf3e-ad6b-4a1b-95fd-bcdf3c65990f")
-		)
-		(pin "1"
-			(uuid "a10b5c7d-eebe-4d7a-af67-995678086928")
-		)
-		(instances
-			(project "glr-pcb-all2can"
-				(path "/be608b80-d1f2-4edd-b7a6-2b7cddd9f44f"
-					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -10620,6 +10632,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 24.13 64.77 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a286fe72-50f8-47be-bb29-f53a5bf4c3e5")
+		(property "Reference" "J4"
+			(at 24.13 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 24.13 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
+			(at 24.13 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 24.13 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 24.13 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e0850ae1-4979-459d-b435-6ce92e69a641")
+		)
+		(pin "1"
+			(uuid "226b163a-35fc-472e-8eed-78d093f4c8df")
+		)
+		(instances
+			(project "glr-pcb-all2can"
+				(path "/be608b80-d1f2-4edd-b7a6-2b7cddd9f44f"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 82.55 86.36 270)
 		(unit 1)
@@ -10909,7 +10989,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100n"
 			(at 48.26 109.2262 0)
 			(effects
 				(font
@@ -10978,7 +11058,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10u"
 			(at 52.578 146.05 0)
 			(effects
 				(font
@@ -11167,7 +11247,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
-		(at 22.86 64.77 0)
+		(at 22.86 39.37 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11176,7 +11256,7 @@
 		(dnp no)
 		(uuid "dbf604f5-8938-49fd-a26e-b58bc4d65a40")
 		(property "Reference" "J3"
-			(at 22.86 59.182 0)
+			(at 22.86 33.782 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11184,7 +11264,7 @@
 			)
 		)
 		(property "Value" "Conn_01x04"
-			(at 23.114 72.644 0)
+			(at 23.114 47.244 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11192,7 +11272,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
-			(at 22.86 64.77 0)
+			(at 22.86 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11201,7 +11281,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 22.86 64.77 0)
+			(at 22.86 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11210,7 +11290,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 22.86 64.77 0)
+			(at 22.86 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11723,7 +11803,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100n"
 			(at 41.656 146.05 0)
 			(effects
 				(font
@@ -12167,6 +12247,68 @@
 			(project "glr-pcb-all2can"
 				(path "/be608b80-d1f2-4edd-b7a6-2b7cddd9f44f"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 189.23 128.27)
+		(size 20.32 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "272dd5a9-e141-4f8d-9723-e5b5520e8b08")
+		(property "Sheetname" "IMU"
+			(at 189.23 127.5584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "imu.kicad_sch"
+			(at 189.23 136.4746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SDA" bidirectional
+			(at 209.55 130.81 0)
+			(uuid "e10ad425-f620-4edc-b5f8-ba177f6ef0ec")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCL" bidirectional
+			(at 209.55 133.35 0)
+			(uuid "cbe347d1-7f69-4d0f-8785-1b604cf652e0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "glr-pcb-all2can"
+				(path "/be608b80-d1f2-4edd-b7a6-2b7cddd9f44f"
+					(page "5")
 				)
 			)
 		)

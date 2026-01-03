@@ -1913,6 +1913,17 @@
 		)
 		(uuid "ab4e0010-f2bc-430d-9194-bca79c59968d")
 	)
+	(hierarchical_label "3_IN_INT"
+		(shape output)
+		(at 125.73 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b0107df0-01b4-4b85-93d8-81add9cf904d")
+	)
 	(hierarchical_label "3_IN"
 		(shape input)
 		(at 85.09 101.6 180)
@@ -1934,17 +1945,6 @@
 			(justify right)
 		)
 		(uuid "c6247585-2c9e-4da2-b07f-3ceba4433084")
-	)
-	(hierarchical_label "3_IN"
-		(shape output)
-		(at 125.73 101.6 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "dae14c5c-283f-409e-a4e5-cb63f2b365a6")
 	)
 	(hierarchical_label "7_IN"
 		(shape input)

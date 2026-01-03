@@ -677,6 +677,10 @@
     [
       "2f73ce0f-c2fb-4881-8b97-44664dc9622c",
       "Output"
+    ],
+    [
+      "272dd5a9-e141-4f8d-9723-e5b5520e8b08",
+      "IMU"
     ]
   ],
   "text_variables": {}
