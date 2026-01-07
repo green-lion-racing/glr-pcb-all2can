@@ -1229,7 +1229,7 @@
 			)
 			(justify left)
 		)
-		(uuid "679e0c25-76bd-4305-8e27-899a08212301")
+		(uuid "679e0c25-76bd-4305-8e27-899a08212302")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -1649,7 +1649,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "10k"
 			(at 135.636 70.358 90)
 			(effects
 				(font
@@ -1694,6 +1694,73 @@
 			(project "glr-pcb-all2can"
 				(path "/be608b80-d1f2-4edd-b7a6-2b7cddd9f44f/272dd5a9-e141-4f8d-9723-e5b5520e8b08"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 128.27 68.58 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a2585f12-6807-49f7-9f74-fff8863ba744")
+		(property "Reference" "#PWR067"
+			(at 132.08 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 124.46 68.5799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 128.27 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "661560e8-1a5f-417e-bf64-8bef26cb1067")
+		)
+		(instances
+			(project "glr-pcb-all2can"
+				(path "/be608b80-d1f2-4edd-b7a6-2b7cddd9f44f/272dd5a9-e141-4f8d-9723-e5b5520e8b08"
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -1768,73 +1835,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 128.27 68.58 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b94e1acf-303c-4496-8867-64cdd8cfd0bc")
-		(property "Reference" "#PWR067"
-			(at 121.92 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 124.46 68.5799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 128.27 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 128.27 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 128.27 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "61008b69-3797-40d3-8020-8d1090e840cb")
-		)
-		(instances
-			(project "glr-pcb-all2can"
-				(path "/be608b80-d1f2-4edd-b7a6-2b7cddd9f44f/272dd5a9-e141-4f8d-9723-e5b5520e8b08"
-					(reference "#PWR067")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 135.89 64.77 90)
 		(unit 1)
@@ -1851,7 +1851,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "10k"
 			(at 135.636 62.738 90)
 			(effects
 				(font
