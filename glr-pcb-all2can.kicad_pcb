@@ -23630,8 +23630,8 @@
 		(layer "Edge.Cuts")
 		(uuid "c2374ee6-b84e-40b0-8b41-959b15ef1810")
 	)
-	(gr_text "${COMPANY}\n${TITLE}\n${PROJECTNAME} ${REVISION}\n${ISSUE_DATE}"
-		(at 173.7 96.93 0)
+	(gr_text "${COMPANY}\n${TITLE}\n${PROJECTNAME} ${REVISION}\n${ISSUE_DATE}\n${COMMENT1}\n${COMMENT2}\n${COMMENT3}"
+		(at 173.77 91.11 0)
 		(layer "B.SilkS")
 		(uuid "1fd1701c-3c69-45c4-b5d3-d8b074ccd28c")
 		(effects
@@ -23639,7 +23639,7 @@
 				(size 1 1)
 				(thickness 0.125)
 			)
-			(justify left bottom mirror)
+			(justify left top mirror)
 		)
 	)
 	(segment
