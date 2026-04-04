@@ -2,5 +2,4 @@
   (version 7)
   (lib (name "SamacSys_Parts")(type "KiCad")(uri "${KIPRJMOD}/glr-kicad-library/SamacSys_Parts.kicad_sym")(options "")(descr ""))
   (lib (name "GLR_KiCad_Library")(type "KiCad")(uri "${KIPRJMOD}/glr-kicad-library/GLR_KiCAD_Library.kicad_sym")(options "")(descr ""))
-  (lib (name "Würth MagIC FDSM")(type "KiCad")(uri "${KIPRJMOD}/wuerth-kicad-library/symbols/MagIC_Wurth_MagIC-FDSM.kicad_sym")(options "")(descr ""))
 )

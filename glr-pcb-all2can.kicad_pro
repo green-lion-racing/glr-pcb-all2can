@@ -568,7 +568,7 @@
       "plot": "output/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "glr-pcb-all2can.step",
       "svg": "",
       "vrml": ""
     },
@@ -785,14 +785,6 @@
     [
       "024e8854-360a-4836-a1a5-cdc334c12796",
       "Input filter"
-    ],
-    [
-      "2f73ce0f-c2fb-4881-8b97-44664dc9622c",
-      "Output"
-    ],
-    [
-      "272dd5a9-e141-4f8d-9723-e5b5520e8b08",
-      "IMU"
     ]
   ],
   "text_variables": {}

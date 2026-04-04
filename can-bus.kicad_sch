@@ -1715,16 +1715,6 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 95.25) (xy 171.45 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0fc25db4-aa18-44af-976a-59f6ac03820b")
-	)
-	(wire
-		(pts
 			(xy 143.51 95.25) (xy 143.51 97.79)
 		)
 		(stroke
@@ -1732,6 +1722,16 @@
 			(type default)
 		)
 		(uuid "1802ae95-c0fe-48c3-866d-221407451133")
+	)
+	(wire
+		(pts
+			(xy 168.91 95.25) (xy 171.45 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f9f8dde-a0e3-4fd3-8359-a355776d4875")
 	)
 	(wire
 		(pts
@@ -1865,16 +1865,6 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 100.33) (xy 181.61 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "37ca6dc9-ae23-4a4c-9e67-fe132d31535e")
-	)
-	(wire
-		(pts
 			(xy 184.15 87.63) (xy 186.69 87.63)
 		)
 		(stroke
@@ -1932,6 +1922,16 @@
 			(type default)
 		)
 		(uuid "53eb92cb-204d-4d86-956c-6a6e094a61e6")
+	)
+	(wire
+		(pts
+			(xy 181.61 95.25) (xy 184.15 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5825a720-cffb-40f3-86eb-d1dddf03cd5b")
 	)
 	(wire
 		(pts
@@ -2065,6 +2065,16 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 100.33) (xy 171.45 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "907a51fc-f305-4503-adb6-41380c5ddb0f")
+	)
+	(wire
+		(pts
 			(xy 90.17 95.25) (xy 92.71 95.25)
 		)
 		(stroke
@@ -2132,16 +2142,6 @@
 			(type default)
 		)
 		(uuid "a15c00b7-a7b1-47eb-a4b8-18fbbf0b6357")
-	)
-	(wire
-		(pts
-			(xy 168.91 100.33) (xy 171.45 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab489d61-5d89-4a72-8368-93fe86bf903a")
 	)
 	(wire
 		(pts
@@ -2265,6 +2265,16 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 100.33) (xy 184.15 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9d05eb2-4c41-414b-b439-0f0deae35ddd")
+	)
+	(wire
+		(pts
 			(xy 125.73 102.87) (xy 123.19 102.87)
 		)
 		(stroke
@@ -2305,16 +2315,6 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 95.25) (xy 181.61 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f7179a6a-77fe-4acc-b28e-a35b9fc66069")
-	)
-	(wire
-		(pts
 			(xy 158.75 105.41) (xy 158.75 107.95)
 		)
 		(stroke
@@ -2332,26 +2332,6 @@
 			(type default)
 		)
 		(uuid "fefc0147-7ade-4ed1-9553-cbda85c30404")
-	)
-	(label "CAN H 1"
-		(at 168.91 87.63 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "08bd41d1-aa7b-436c-ad25-3687ed492b03")
-	)
-	(label "CAN L 1"
-		(at 168.91 107.95 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "280025f4-c179-459b-9801-5313900a31eb")
 	)
 	(label "TX 1"
 		(at 76.2 88.9 0)
@@ -3353,7 +3333,8 @@
 	)
 	(symbol
 		(lib_id "Filter:Choke_CommonMode_FerriteCore_1243")
-		(at 176.53 97.79 180)
+		(at 176.53 97.79 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3361,7 +3342,7 @@
 		(dnp no)
 		(uuid "80457a8c-adbf-4399-81b6-bdc80699b934")
 		(property "Reference" "FL1"
-			(at 178.054 94.996 90)
+			(at 175.006 94.996 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3370,7 +3351,7 @@
 			)
 		)
 		(property "Value" "Choke"
-			(at 175.514 94.996 90)
+			(at 177.546 94.996 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3397,7 +3378,7 @@
 			)
 		)
 		(property "Description" "Generic common-mode choke, ferrite core, 1243 pin order"
-			(at 172.466 97.028 0)
+			(at 180.594 97.028 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3418,7 +3399,7 @@
 			(uuid "50824094-a8d2-41c0-b962-a8a7f3e8b775")
 		)
 		(instances
-			(project ""
+			(project "glr-pcb-all2can"
 				(path "/be608b80-d1f2-4edd-b7a6-2b7cddd9f44f/042b8a59-42b1-451e-b61b-604f57929997"
 					(reference "FL1")
 					(unit 1)
