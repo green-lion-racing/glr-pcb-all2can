@@ -1840,7 +1840,7 @@
 				)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+3V3"
 			(at 138.43 134.6199 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2235,7 +2235,7 @@
 				)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+3V3"
 			(at 138.43 83.8199 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3680,7 +3680,7 @@
 				)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+3V3"
 			(at 201.93 107.9499 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3837,7 +3837,7 @@
 				)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+3V3"
 			(at 138.43 109.2199 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3916,7 +3916,7 @@
 				)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+3V3"
 			(at 201.93 83.8199 90)
 			(show_name no)
 			(do_not_autoplace no)
