@@ -101,52 +101,64 @@
       ],
       "drc_exclusions": [
         [
-          "clearance|158030000|90055000|431fa7df-8dc3-40a7-abaa-d5099d23adc1|60a5b262-6d80-4886-8ef0-57aa2a8a4807",
+          "clearance|159060000|94785000|72734289-5005-4ced-a4fb-c38def8d859f|8fb9edf5-f3ce-4e75-91ea-1f5fc51b92b4",
           "J8"
         ],
         [
-          "clearance|158030000|91325000|0bffafc3-3e2b-44e2-8568-dbb4703e4232|431fa7df-8dc3-40a7-abaa-d5099d23adc1",
+          "clearance|159610000|95335000|72734289-5005-4ced-a4fb-c38def8d859f|da2449b2-aa84-49d7-abf9-a39348619d33",
           "J8"
         ],
         [
-          "clearance|158030000|92595000|23c3f415-a7f1-428c-b3a6-4097b554ce29|0bffafc3-3e2b-44e2-8568-dbb4703e4232",
+          "clearance|159695000|94065000|8fb9edf5-f3ce-4e75-91ea-1f5fc51b92b4|23c3f415-a7f1-428c-b3a6-4097b554ce29",
           "J8"
         ],
         [
-          "clearance|158030000|93865000|8fb9edf5-f3ce-4e75-91ea-1f5fc51b92b4|23c3f415-a7f1-428c-b3a6-4097b554ce29",
+          "clearance|160330000|94700000|da2449b2-aa84-49d7-abf9-a39348619d33|23c3f415-a7f1-428c-b3a6-4097b554ce29",
           "J8"
         ],
         [
-          "clearance|158665000|89420000|8ab5bcd6-faeb-407e-9d48-ccb22bc810c3|60a5b262-6d80-4886-8ef0-57aa2a8a4807",
+          "clearance|160965000|94065000|23c3f415-a7f1-428c-b3a6-4097b554ce29|0bffafc3-3e2b-44e2-8568-dbb4703e4232",
           "J8"
         ],
         [
-          "clearance|158665000|90690000|f2679448-efbf-4391-922a-021d8d777ff4|431fa7df-8dc3-40a7-abaa-d5099d23adc1",
+          "clearance|161600000|94700000|63bb2559-317c-48e8-afce-95f9a464f30f|0bffafc3-3e2b-44e2-8568-dbb4703e4232",
           "J8"
         ],
         [
-          "clearance|158665000|91960000|63bb2559-317c-48e8-afce-95f9a464f30f|0bffafc3-3e2b-44e2-8568-dbb4703e4232",
+          "clearance|162235000|94065000|0bffafc3-3e2b-44e2-8568-dbb4703e4232|431fa7df-8dc3-40a7-abaa-d5099d23adc1",
           "J8"
         ],
         [
-          "clearance|158665000|93230000|da2449b2-aa84-49d7-abf9-a39348619d33|23c3f415-a7f1-428c-b3a6-4097b554ce29",
+          "clearance|162235000|95335000|63bb2559-317c-48e8-afce-95f9a464f30f|f2679448-efbf-4391-922a-021d8d777ff4",
           "J8"
         ],
         [
-          "clearance|158750000|94500000|72734289-5005-4ced-a4fb-c38def8d859f|8fb9edf5-f3ce-4e75-91ea-1f5fc51b92b4",
+          "clearance|162870000|94700000|f2679448-efbf-4391-922a-021d8d777ff4|431fa7df-8dc3-40a7-abaa-d5099d23adc1",
           "J8"
         ],
         [
-          "clearance|159300000|90055000|f2679448-efbf-4391-922a-021d8d777ff4|8ab5bcd6-faeb-407e-9d48-ccb22bc810c3",
+          "clearance|163505000|94065000|431fa7df-8dc3-40a7-abaa-d5099d23adc1|60a5b262-6d80-4886-8ef0-57aa2a8a4807",
           "J8"
         ],
         [
-          "clearance|159300000|91325000|63bb2559-317c-48e8-afce-95f9a464f30f|f2679448-efbf-4391-922a-021d8d777ff4",
+          "clearance|163505000|95335000|f2679448-efbf-4391-922a-021d8d777ff4|8ab5bcd6-faeb-407e-9d48-ccb22bc810c3",
           "J8"
         ],
         [
-          "clearance|159300000|93950000|72734289-5005-4ced-a4fb-c38def8d859f|da2449b2-aa84-49d7-abf9-a39348619d33",
+          "clearance|164140000|94700000|8ab5bcd6-faeb-407e-9d48-ccb22bc810c3|60a5b262-6d80-4886-8ef0-57aa2a8a4807",
           "J8"
+        ],
+        [
+          "extra_footprint|120331500|113383500|bc1b10a6-a730-4dfc-b885-98debd2a1281|00000000-0000-0000-0000-000000000000",
+          "Hole"
+        ],
+        [
+          "extra_footprint|160331500|88383500|f2f45a58-df39-45b5-9510-4f979ce8a95a|00000000-0000-0000-0000-000000000000",
+          "Hole"
+        ],
+        [
+          "starved_thermal|164140000|95335000|ccfa6189-b63c-46df-9bb3-eb671d73b94b|8ab5bcd6-faeb-407e-9d48-ccb22bc810c3|B.Cu",
+          "One should be enough"
         ]
       ],
       "meta": {
