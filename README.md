@@ -2,10 +2,13 @@
 
 This is a KiCad PCB repository for the [All2Can](https://github.com/green-lion-racing/glr-all2can) software.
 
-<p float="left">
-  <img src="img/glr-pcb-all2can-front.png" width="49%" />
+<div align="center">
+  <img src="img/glr-pcb-all2can-front-smd.png" width="49%" />
   <img src="img/glr-pcb-all2can-back.png" width="49%" />
-</p>
+</div>
+<div align="center">
+  <img src="img/glr-pcb-all2can-front.png" width="49%" />
+</div>
 
 ## Overview
 
