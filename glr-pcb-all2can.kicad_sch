@@ -7,7 +7,7 @@
 	(title_block
 		(title "All2Can")
 		(date "${CURRENT_DATE}")
-		(rev "v4")
+		(rev "v5")
 		(company "Green Lion Racing")
 		(comment 1 "Alexander Wallrodt")
 	)
@@ -4943,7 +4943,7 @@
 		)
 		(uuid "2a3d4ff6-5938-43d1-8066-b31ffaec3f98")
 	)
-	(text "This PCB has a long history of desgins.\nFrist version in CircuitMaker. https://circuitmaker.com/Projects/Details/Pat-Her/All2Can-V01\nSecond version also in CircuitMaker with some changes. https://circuitmaker.com/Projects/Details/Jannis-Dohm/All2Can\nThird in Fusion 360, with new PCB design.\nNow fourth version in KiCad, with some changes to schematic and smaller PCB. https://github.com/green-lion-racing/glr-pcb-all2can"
+	(text "This PCB has a long history of desgins.\nFrist version in CircuitMaker. https://circuitmaker.com/Projects/Details/Pat-Her/All2Can-V01\nSecond version also in CircuitMaker with some changes. https://circuitmaker.com/Projects/Details/Jannis-Dohm/All2Can\nThird in Fusion 360, with new PCB design.\nFourth version in KiCad, with some changes to schematic and smaller PCB. https://github.com/green-lion-racing/glr-pcb-all2can\nFifth version fitted to a Bopla BoLink case."
 		(exclude_from_sim no)
 		(at 14.478 20.066 0)
 		(effects

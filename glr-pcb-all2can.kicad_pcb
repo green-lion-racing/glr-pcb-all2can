@@ -10,7 +10,7 @@
 	(title_block
 		(title "All2Can")
 		(date "${CURRENT_DATE}")
-		(rev "v4")
+		(rev "v5")
 		(company "Green Lion Racing")
 		(comment 1 "Alexander Wallrodt")
 		(comment 4 "AISLER Project ID: XLTMZTDL")
