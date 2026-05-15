@@ -4,39 +4,39 @@
       {
         "name": "Back",
         "ww": 1.0,
-        "wx": 20.321809768676758,
-        "wy": 25.715648651123047,
-        "wz": -31.26327133178711,
+        "wx": 20.650211334228516,
+        "wy": 27.46876335144043,
+        "wz": -31.45452117919922,
         "xw": 0.0,
-        "xx": -0.9396926760673523,
-        "xy": -0.29624125361442566,
-        "xz": 0.1709349900484085,
+        "xx": -0.9396927356719971,
+        "xy": -0.2962062358856201,
+        "xz": 0.1709955781698227,
         "yw": 0.0,
-        "yx": -0.3420199453830719,
+        "yx": -0.3420199155807495,
         "yy": 0.8137949109077454,
-        "yz": -0.4698513150215149,
+        "yz": -0.4698512852191925,
         "zw": 0.0,
-        "zx": 8.331348362844437e-05,
-        "zy": -0.49997901916503906,
-        "zz": -0.8660374879837036
+        "zx": 1.755404082359746e-05,
+        "zy": -0.4999997317790985,
+        "zz": -0.8660255670547485
       },
       {
         "name": "Front",
         "ww": 1.0,
-        "wx": -34.97439193725586,
-        "wy": 8.283596992492676,
-        "wz": -21.204158782958984,
+        "wx": -35.68733215332031,
+        "wy": 9.709479331970215,
+        "wz": -21.20415687561035,
         "xw": 0.0,
-        "xx": 0.9396926760673523,
+        "xx": 0.9396927356719971,
         "xy": 0.2962324619293213,
-        "xz": -0.17095018923282623,
+        "xz": -0.17095017433166504,
         "yw": 0.0,
-        "yx": -0.3420199453830719,
+        "yx": -0.3420199155807495,
         "yy": 0.8137949109077454,
-        "yz": -0.4698513150215149,
+        "yz": -0.4698512852191925,
         "zw": 0.0,
-        "zx": -6.681666127406061e-05,
-        "zy": 0.4999842345714569,
+        "zx": -6.682047387585044e-05,
+        "zy": 0.4999842047691345,
         "zz": 0.8660345077514648
       }
     ],
@@ -99,68 +99,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "clearance|159060000|94785000|72734289-5005-4ced-a4fb-c38def8d859f|8fb9edf5-f3ce-4e75-91ea-1f5fc51b92b4",
-          "J8"
-        ],
-        [
-          "clearance|159610000|95335000|72734289-5005-4ced-a4fb-c38def8d859f|da2449b2-aa84-49d7-abf9-a39348619d33",
-          "J8"
-        ],
-        [
-          "clearance|159695000|94065000|8fb9edf5-f3ce-4e75-91ea-1f5fc51b92b4|23c3f415-a7f1-428c-b3a6-4097b554ce29",
-          "J8"
-        ],
-        [
-          "clearance|160330000|94700000|da2449b2-aa84-49d7-abf9-a39348619d33|23c3f415-a7f1-428c-b3a6-4097b554ce29",
-          "J8"
-        ],
-        [
-          "clearance|160965000|94065000|23c3f415-a7f1-428c-b3a6-4097b554ce29|0bffafc3-3e2b-44e2-8568-dbb4703e4232",
-          "J8"
-        ],
-        [
-          "clearance|161600000|94700000|63bb2559-317c-48e8-afce-95f9a464f30f|0bffafc3-3e2b-44e2-8568-dbb4703e4232",
-          "J8"
-        ],
-        [
-          "clearance|162235000|94065000|0bffafc3-3e2b-44e2-8568-dbb4703e4232|431fa7df-8dc3-40a7-abaa-d5099d23adc1",
-          "J8"
-        ],
-        [
-          "clearance|162235000|95335000|63bb2559-317c-48e8-afce-95f9a464f30f|f2679448-efbf-4391-922a-021d8d777ff4",
-          "J8"
-        ],
-        [
-          "clearance|162870000|94700000|f2679448-efbf-4391-922a-021d8d777ff4|431fa7df-8dc3-40a7-abaa-d5099d23adc1",
-          "J8"
-        ],
-        [
-          "clearance|163505000|94065000|431fa7df-8dc3-40a7-abaa-d5099d23adc1|60a5b262-6d80-4886-8ef0-57aa2a8a4807",
-          "J8"
-        ],
-        [
-          "clearance|163505000|95335000|f2679448-efbf-4391-922a-021d8d777ff4|8ab5bcd6-faeb-407e-9d48-ccb22bc810c3",
-          "J8"
-        ],
-        [
-          "clearance|164140000|94700000|8ab5bcd6-faeb-407e-9d48-ccb22bc810c3|60a5b262-6d80-4886-8ef0-57aa2a8a4807",
-          "J8"
-        ],
-        [
-          "extra_footprint|120331500|113383500|bc1b10a6-a730-4dfc-b885-98debd2a1281|00000000-0000-0000-0000-000000000000",
-          "Hole"
-        ],
-        [
-          "extra_footprint|160331500|88383500|f2f45a58-df39-45b5-9510-4f979ce8a95a|00000000-0000-0000-0000-000000000000",
-          "Hole"
-        ],
-        [
-          "starved_thermal|164140000|95335000|ccfa6189-b63c-46df-9bb3-eb671d73b94b|8ab5bcd6-faeb-407e-9d48-ccb22bc810c3|B.Cu",
-          "One should be enough"
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -340,7 +279,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "v4"
+      "sch_revision": ""
     },
     "layer_pairs": [
       {
@@ -568,14 +507,11 @@
       "duplicate_sheet_names": "error",
       "endpoint_off_grid": "warning",
       "extra_units": "error",
-      "field_name_whitespace": "warning",
       "footprint_filter": "ignore",
       "footprint_link_issues": "warning",
       "four_way_junction": "ignore",
       "global_label_dangling": "warning",
-      "ground_pin_not_ground": "warning",
       "hier_label_mismatch": "error",
-      "isolated_pin_label": "warning",
       "label_dangling": "error",
       "label_multiple_wires": "warning",
       "lib_symbol_issues": "warning",
@@ -598,7 +534,6 @@
       "similar_power": "warning",
       "simulation_model_issue": "ignore",
       "single_global_label": "warning",
-      "stacked_pin_name": "warning",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
       "undefined_netclass": "error",
@@ -652,7 +587,7 @@
       "plot": "output/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "glr-pcb-all2can.step",
+      "step": "",
       "svg": "",
       "vrml": ""
     },
@@ -660,11 +595,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "annotation": {
-      "method": 0,
-      "sort_order": 0
-    },
-    "bom_export_filename": "output\\glr-pcb-all2can-bom.csv",
+    "bom_export_filename": "${PROJECTNAME}.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -821,7 +752,6 @@
       "default_line_thickness": 6.0,
       "default_text_size": 50.0,
       "field_names": [],
-      "hop_over_size_choice": 0,
       "intersheets_ref_own_page": false,
       "intersheets_ref_prefix": "",
       "intersheets_ref_short": false,
@@ -853,7 +783,6 @@
     },
     "page_layout_descr_file": "",
     "plot_directory": "output/",
-    "reuse_designators": true,
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
@@ -867,16 +796,14 @@
       {
         "filename": "glr-pcb-all2can.kicad_sch",
         "name": "glr-pcb-all2can",
-        "uuid": "be608b80-d1f2-4edd-b7a6-2b7cddd9f44f"
+        "uuid": "00000000-0000-0000-0000-000000000000"
       }
-    ],
-    "used_designators": "",
-    "variants": []
+    ]
   },
   "sheets": [
     [
       "be608b80-d1f2-4edd-b7a6-2b7cddd9f44f",
-      "glr-pcb-all2can"
+      "Root"
     ],
     [
       "042b8a59-42b1-451e-b61b-604f57929997",
@@ -885,6 +812,14 @@
     [
       "024e8854-360a-4836-a1a5-cdc334c12796",
       "Input filter"
+    ],
+    [
+      "2f73ce0f-c2fb-4881-8b97-44664dc9622c",
+      "Output"
+    ],
+    [
+      "272dd5a9-e141-4f8d-9723-e5b5520e8b08",
+      "IMU"
     ]
   ],
   "text_variables": {},
