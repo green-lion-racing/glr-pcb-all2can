@@ -1835,6 +1835,17 @@
 				)
 			)
 		)
+		(property "DigiKey" "399-C0603C104K3RACTUCT-ND"
+			(at 165.1 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "a9fec436-c15b-4656-8fe3-ab0adf97753e")
 		)
@@ -2027,6 +2038,17 @@
 				)
 			)
 		)
+		(property "DigiKey" "P30KDBCT-ND"
+			(at 97.79 77.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "901d6e5c-20ab-4607-8b34-89c5fb9740d8")
 		)
@@ -2208,6 +2230,17 @@
 			)
 		)
 		(property "Vout (V)" ""
+			(at 161.29 101.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" "P30KDBCT-ND"
 			(at 161.29 101.6 90)
 			(hide yes)
 			(show_name no)
@@ -2646,6 +2679,17 @@
 				)
 			)
 		)
+		(property "DigiKey" "399-C0603C104K3RACTUCT-ND"
+			(at 101.6 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "383d9206-f42a-4eaf-be25-da32d00aa8a8")
 		)
@@ -2760,6 +2804,17 @@
 				)
 			)
 		)
+		(property "DigiKey" "4878-BAT54SCT-ND"
+			(at 125.73 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "8460798c-233c-4082-a8c9-7c900e55dce9")
 		)
@@ -2801,7 +2856,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "~"
 			(at 113.03 107.9499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2983,6 +3038,17 @@
 			)
 		)
 		(property "Vout (V)" ""
+			(at 165.1 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" "399-C0603C104K3RACTUCT-ND"
 			(at 165.1 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -3185,6 +3251,17 @@
 				)
 			)
 		)
+		(property "DigiKey" "4878-BAT54SCT-ND"
+			(at 125.73 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "4a359416-c73b-4307-b63b-270eaa151f1c")
 		)
@@ -3226,7 +3303,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "~"
 			(at 176.53 82.5499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3408,6 +3485,17 @@
 			)
 		)
 		(property "Vout (V)" ""
+			(at 101.6 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" "399-C0603C104K3RACTUCT-ND"
 			(at 101.6 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -3609,6 +3697,17 @@
 				)
 			)
 		)
+		(property "DigiKey" "P30KDBCT-ND"
+			(at 161.29 77.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "52e868f2-84d0-4573-b412-772fa6ce8c45")
 		)
@@ -3712,6 +3811,17 @@
 			)
 		)
 		(property "Vout (V)" ""
+			(at 97.79 128.27 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" "P30KDBCT-ND"
 			(at 97.79 128.27 90)
 			(hide yes)
 			(show_name no)
@@ -3827,6 +3937,17 @@
 			)
 		)
 		(property "Vout (V)" ""
+			(at 101.6 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" "399-C0603C104K3RACTUCT-ND"
 			(at 101.6 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -4502,7 +4623,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "~"
 			(at 176.53 106.6799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4693,6 +4814,17 @@
 				)
 			)
 		)
+		(property "DigiKey" "4878-BAT54SCT-ND"
+			(at 125.73 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "cd8378a8-a305-40b9-a50b-b30417e01257")
 		)
@@ -4810,6 +4942,17 @@
 				)
 			)
 		)
+		(property "DigiKey" "4878-BAT54SCT-ND"
+			(at 189.23 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "15467fcd-f4ff-4b35-b572-f162610820d8")
 		)
@@ -4851,7 +4994,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "~"
 			(at 113.03 133.3499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5122,7 +5265,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "~"
 			(at 113.03 82.5499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5391,6 +5534,17 @@
 				)
 			)
 		)
+		(property "DigiKey" "4878-BAT54SCT-ND"
+			(at 189.23 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "c0c8f6d1-0925-46be-9d9d-9633d9729246")
 		)
@@ -5575,6 +5729,17 @@
 			)
 		)
 		(property "Vout (V)" ""
+			(at 97.79 102.87 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" "P30KDBCT-ND"
 			(at 97.79 102.87 90)
 			(hide yes)
 			(show_name no)

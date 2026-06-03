@@ -8419,6 +8419,17 @@
 				)
 			)
 		)
+		(property "DigiKey" "399-C0603C104K3RACTUCT-ND"
+			(at 88.9 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "46cc3990-5b79-454f-87e9-b2643886f0d6")
 		)
@@ -8524,6 +8535,17 @@
 			)
 		)
 		(property "Vout (V)" ""
+			(at 69.85 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" "399-C0603C104K3RACTUCT-ND"
 			(at 69.85 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -8708,6 +8730,28 @@
 				)
 			)
 		)
+		(property "DigiKey" "732-62701021621-ND"
+			(at 251.46 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "WuerthElektronik" "62701021621"
+			(at 251.46 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "6"
 			(uuid "9ddce476-126c-4263-b8a0-e03aa29e8a7c")
 		)
@@ -8835,6 +8879,17 @@
 			)
 		)
 		(property "Vout (V)" ""
+			(at 99.06 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" "RMCF0603FT115KCT-ND"
 			(at 99.06 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -9118,6 +9173,17 @@
 				)
 			)
 		)
+		(property "DigiKey" "1276-1040-1-ND"
+			(at 30.48 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c6154c59-4698-410a-bfc4-565924291bd2")
 		)
@@ -9223,6 +9289,28 @@
 			)
 		)
 		(property "Vout (V)" ""
+			(at 254 88.9 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" "732-643250100304-ND"
+			(at 254 88.9 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "WuerthElektronik" "643250100304"
 			(at 254 88.9 90)
 			(hide yes)
 			(show_name no)
@@ -9353,6 +9441,17 @@
 				)
 			)
 		)
+		(property "DigiKey" "399-C0603C104K3RACTUCT-ND"
+			(at 88.9 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "95464b13-b0ca-46b7-b1a0-e72cc048d74c")
 		)
@@ -9458,6 +9557,28 @@
 			)
 		)
 		(property "Vout (V)" ""
+			(at 254 113.03 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" "732-643250100304-ND"
+			(at 254 113.03 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "WuerthElektronik" "643250100304"
 			(at 254 113.03 90)
 			(hide yes)
 			(show_name no)
@@ -9778,6 +9899,17 @@
 				)
 			)
 		)
+		(property "DigiKey" "399-C0603C105K4RACTUCT-ND"
+			(at 106.68 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5e8976d3-1ea0-4479-9265-c5e5584b57aa")
 		)
@@ -9880,6 +10012,17 @@
 			)
 		)
 		(property "Vout (V)" ""
+			(at 240.03 148.59 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" "311-100KHRCT-ND"
 			(at 240.03 148.59 90)
 			(hide yes)
 			(show_name no)
@@ -9994,6 +10137,17 @@
 			)
 		)
 		(property "Vout (V)" ""
+			(at 110.49 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" "399-C0603C105K4RACTUCT-ND"
 			(at 110.49 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -10353,6 +10507,28 @@
 				)
 			)
 		)
+		(property "DigiKey" "732-74479889310CT-ND"
+			(at 81.28 133.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "WuerthElektronik" "74479889310"
+			(at 81.28 133.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "43902f36-d9f4-446f-bdf5-45512ed0f8c1")
 		)
@@ -10457,6 +10633,17 @@
 			)
 		)
 		(property "Vout (V)" ""
+			(at 204.47 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" "1292-0603X106M100CT-ND"
 			(at 204.47 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -10746,6 +10933,17 @@
 				)
 			)
 		)
+		(property "DigiKey" "160-1447-1-ND"
+			(at 41.91 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3988781f-4299-4368-837e-1ec86e8f22b3")
 		)
@@ -11016,6 +11214,17 @@
 				)
 			)
 		)
+		(property "DigiKey" "311-22.1KHRCT-ND"
+			(at 99.06 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "ad906864-7cd9-43f7-94c9-351c81612d70")
 		)
@@ -11181,6 +11390,28 @@
 			)
 		)
 		(property "Vout (V)" ""
+			(at 124.46 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" "497-STM32C092KCT6-ND"
+			(at 124.46 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "WuerthElektronik" ""
 			(at 124.46 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -11474,6 +11705,17 @@
 				)
 			)
 		)
+		(property "DigiKey" "399-C0603C104K3RACTUCT-ND"
+			(at 264.16 138.43 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "dd6282d4-7e0a-4856-bff2-5b4318a001e1")
 		)
@@ -11649,6 +11891,17 @@
 				)
 			)
 		)
+		(property "DigiKey" "ZMR330FCT-ND"
+			(at 191.77 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "cdcab01f-305f-4346-b234-4e5f838eeaad")
 		)
@@ -11754,6 +12007,17 @@
 			)
 		)
 		(property "Vout (V)" ""
+			(at 261.62 148.59 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" "311-10.0KHRCT-ND"
 			(at 261.62 148.59 90)
 			(hide yes)
 			(show_name no)
@@ -11877,6 +12141,17 @@
 			)
 		)
 		(property "Vout (V)" ""
+			(at 41.91 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" "160-1436-1-ND"
 			(at 41.91 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -12233,6 +12508,17 @@
 				)
 			)
 		)
+		(property "DigiKey" "311-10.0KHRCT-ND"
+			(at 74.93 43.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "a0e6a40f-9239-4ab1-9856-bf3f7a105e14")
 		)
@@ -12415,6 +12701,17 @@
 			)
 		)
 		(property "Vout (V)" ""
+			(at 33.02 110.49 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" "P120DBCT-ND"
 			(at 33.02 110.49 90)
 			(hide yes)
 			(show_name no)
@@ -12730,6 +13027,28 @@
 				)
 			)
 		)
+		(property "DigiKey" "732-643250100304-ND"
+			(at 254 71.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "WuerthElektronik" "643250100304"
+			(at 254 71.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "f1a009f6-841c-4bcc-8d38-12f82b1488cc")
 		)
@@ -12841,6 +13160,17 @@
 			)
 		)
 		(property "Vout (V)" ""
+			(at 69.85 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" "399-C0603C104K3RACTUCT-ND"
 			(at 69.85 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -13030,6 +13360,17 @@
 			)
 		)
 		(property "Vout (V)" ""
+			(at 35.56 181.61 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" "311-10.0KHRCT-ND"
 			(at 35.56 181.61 90)
 			(hide yes)
 			(show_name no)
@@ -13565,6 +13906,17 @@
 				)
 			)
 		)
+		(property "DigiKey" "31-AP64060QWU-7CT-ND"
+			(at 53.34 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "350fc0a4-eb87-4986-a1c4-06683760e023")
 		)
@@ -13681,6 +14033,17 @@
 			)
 		)
 		(property "Vout (V)" ""
+			(at 120.65 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" "399-C0603C104K3RACTUCT-ND"
 			(at 120.65 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -13918,6 +14281,17 @@
 				)
 			)
 		)
+		(property "DigiKey" "1292-0603X106M100CT-ND"
+			(at 204.47 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "698d88d6-0bf3-41dd-97c9-90b02bcb245f")
 		)
@@ -14111,6 +14485,17 @@
 				)
 			)
 		)
+		(property "DigiKey" "399-C0603C104K3RACTUCT-ND"
+			(at 120.65 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4f3f85ab-20f1-4bf4-8351-a60b3ffbbdd6")
 		)
@@ -14213,6 +14598,17 @@
 			)
 		)
 		(property "Vout (V)" ""
+			(at 67.31 43.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" "311-10.0KHRCT-ND"
 			(at 67.31 43.18 90)
 			(hide yes)
 			(show_name no)
@@ -14337,6 +14733,17 @@
 				)
 			)
 		)
+		(property "DigiKey" "399-C0603C105K4RACTUCT-ND"
+			(at 110.49 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "384db2fc-1099-4bc1-a635-b1c3bad5877d")
 		)
@@ -14440,6 +14847,17 @@
 			)
 		)
 		(property "Vout (V)" ""
+			(at 33.02 100.33 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" "P120DBCT-ND"
 			(at 33.02 100.33 90)
 			(hide yes)
 			(show_name no)
@@ -14555,6 +14973,28 @@
 			)
 		)
 		(property "Vout (V)" ""
+			(at 254 52.07 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" "732-643250100304-ND"
+			(at 254 52.07 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "WuerthElektronik" "643250100304"
 			(at 254 52.07 90)
 			(hide yes)
 			(show_name no)
@@ -14802,6 +15242,17 @@
 				)
 			)
 		)
+		(property "DigiKey" "311-22.1KHRCT-ND"
+			(at 99.06 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "b45b9230-adde-4396-8269-77ccf873819b")
 		)
@@ -14907,6 +15358,17 @@
 			)
 		)
 		(property "Vout (V)" ""
+			(at 30.48 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" "1276-1040-1-ND"
 			(at 30.48 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -15327,6 +15789,17 @@
 				)
 			)
 		)
+		(property "DigiKey" "31-AP64060QWU-7CT-ND"
+			(at 53.34 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0d13cb49-0213-4d0d-a216-4e1cc0177a1e")
 		)
@@ -15443,6 +15916,17 @@
 			)
 		)
 		(property "Vout (V)" ""
+			(at 194.31 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" "399-C0603C104K3RACTUCT-ND"
 			(at 194.31 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -15711,6 +16195,17 @@
 			)
 		)
 		(property "Vout (V)" ""
+			(at 35.56 140.97 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" "311-10.0KHRCT-ND"
 			(at 35.56 140.97 90)
 			(hide yes)
 			(show_name no)
