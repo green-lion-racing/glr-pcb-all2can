@@ -8329,7 +8329,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "07f65279-5a86-4edd-b0cc-0cc9aa6934af")
 		(property "Reference" "C3"
 			(at 86.487 136.525 0)
@@ -8342,7 +8342,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "10p to 220p"
 			(at 86.487 139.065 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9351,7 +9351,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "2500d886-5be3-474a-88de-7a3b9e3446a3")
 		(property "Reference" "C9"
 			(at 86.487 177.165 0)
@@ -9364,7 +9364,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "10p to 220p"
 			(at 86.487 179.705 0)
 			(show_name no)
 			(do_not_autoplace no)
